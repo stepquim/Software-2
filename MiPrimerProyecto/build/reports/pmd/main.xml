@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.2.3" timestamp="2016-01-05T10:57:45.292">
+<file name="C:\Users\CltControl.WRKS129-138FIEC\Documents\workspace\MiPrimerProyecto\src\main\java\ec\edu\espol\CalService.java">
+<violation beginline="22" endline="22" begincolumn="1" endcolumn="2" rule="EmptyInitializer" ruleset="Empty Code" package="ec.edu.espol" class="CalService" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.2.3/pmd-java/rules/java/empty.html#EmptyInitializer" priority="3">
+Empty initializer was found
+</violation>
+</file>
+</pmd>

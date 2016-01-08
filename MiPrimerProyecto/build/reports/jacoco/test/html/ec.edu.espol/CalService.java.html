@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="es"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>CalService.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">MiPrimerProyecto</a> &gt; <a href="index.source.html" class="el_package">ec.edu.espol</a> &gt; <span class="el_source">CalService.java</span></div><h1>CalService.java</h1><pre class="source lang-java linenums">package ec.edu.espol;
+
+<span class="fc" id="L3">public class CalService {</span>
+	
+	ICalculator cal;
+	
+	public int AddTwoNumbers(int x, int y){
+<span class="nc" id="L8">		return cal.add(x,y);</span>
+		
+	}
+	
+	//GET &amp; SET
+int b;
+	public ICalculator getCal() {
+<span class="nc" id="L15">		return cal;</span>
+	}
+;
+
+	public void setCal(ICalculator cal) {
+<span class="nc" id="L20">		this.cal = cal;</span>
+<span class="nc" id="L21">	}</span>
+<span class="fc" id="L22">{}</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.1.201405082137</span></div></body></html>
